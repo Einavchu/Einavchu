@@ -1,13 +1,6 @@
-/*
-
-Tooplate 2120 Ben Resume
-
-https://www.tooplate.com/view/2120-ben-resume
-
-*/
 
   @font-face {
-      font-family: 'Plain';
+      font-family: 'Sans-serif';
       src: url('../localfonts/Plain-Regular.woff2') format('woff2'),
           url('../localfonts/Plain-Regular.woff') format('woff');
       font-weight: normal;
@@ -15,7 +8,7 @@ https://www.tooplate.com/view/2120-ben-resume
   }
 
   @font-face {
-      font-family: 'Plain';
+      font-family: 'Sans-serif';
       src: url('../localfonts/Plain-Light.woff2') format('woff2'),
           url('../localfonts/Plain-Light.woff') format('woff');
       font-weight: 300;
@@ -23,7 +16,7 @@ https://www.tooplate.com/view/2120-ben-resume
   }
 
   @font-face {
-      font-family: 'Plain';
+      font-family: 'Sans-serif';
       src: url('../localfonts/Plain-Bold.woff2') format('woff2'),
           url('../localfonts/Plain-Bold.woff') format('woff');
       font-weight: bold;
@@ -39,7 +32,7 @@ https://www.tooplate.com/view/2120-ben-resume
     --gray-color:           #909090;
     --p-color:              #7d7a7a;
 
-    --base-font-family:     "Plain", -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --base-font-family:     "Sans-serif", -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     --font-weight-bold:     600;
     --font-weight-normal:   400;
     --font-weight-light:    300;
@@ -119,6 +112,7 @@ https://www.tooplate.com/view/2120-ben-resume
     transform: rotate(-25deg);
   }
 
+/*adding*/
 
   /* CUSTOM BUTTON */
   .custom-btn {
@@ -194,13 +188,22 @@ https://www.tooplate.com/view/2120-ben-resume
   .navbar-brand {
     color: var(--white-color);
     font-weight: var(--font-weight-light);
-    font-size: var(--h4-font-size);
+    font-size: var(--h5-font-size);
     font-weight: bold;
 
   }
   .rtl {
     direction: rtl;
     text-align: center;
+   color:#010101;
+
+}
+.circular_image{
+
+  
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* Modified*/
 
 }
   .navbar .custom-btn {
@@ -344,13 +347,15 @@ https://www.tooplate.com/view/2120-ben-resume
     border-radius: var(--border-radius-small);
   }
 
+
+
   .profile-list li {
     margin: 0.3rem 0;
   }
 
   .profile-list strong {
     display: inline-block;
-    width: 30%;
+    width: 40%;
     margin-right: 1rem;
   }
 
