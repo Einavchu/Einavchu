@@ -94,15 +94,13 @@
 
   p {
     color: var(--p-color);
-/*     font-size: var(--p-font-size);
- */    font-weight: var(--font-weight-light);
+    font-weight: var(--font-weight-light);
     letter-spacing: 0.3px;
     line-height: 2em;
   }
 
   li {
     color: var(--p-color);
-  /*   font-size: var(--p-font-size); */
     font-weight: var(--font-weight-light);
     letter-spacing: 0.3px;
     line-height: 2em;
@@ -204,6 +202,17 @@
     text-align: center;
    color:#010101;
    
+
+}
+
+.rtl2 {
+  direction: rtl;
+  text-align: center;
+ color:#010101;
+ color: var(--p-color);
+ font-weight: var(--font-weight-light);
+ letter-spacing: 0.3px;
+ line-height: 2em;
 
 }
 .circular_image{
