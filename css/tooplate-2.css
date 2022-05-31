@@ -94,12 +94,19 @@
 
   p {
     color: var(--p-color);
-    font-size: var(--p-font-size);
-    font-weight: var(--font-weight-light);
+/*     font-size: var(--p-font-size);
+ */    font-weight: var(--font-weight-light);
     letter-spacing: 0.3px;
     line-height: 2em;
   }
 
+  li {
+    color: var(--p-color);
+  /*   font-size: var(--p-font-size); */
+    font-weight: var(--font-weight-light);
+    letter-spacing: 0.3px;
+    line-height: 2em;
+  }
   .section-padding {
     padding: 6rem 0;
   }
@@ -196,6 +203,7 @@
     direction: rtl;
     text-align: center;
    color:#010101;
+   
 
 }
 .circular_image{
@@ -451,7 +459,6 @@
     padding-left: 0;
     cursor: text;
   }
-
 
   .contact-form input {
     height: calc(2.25rem + 10px);
