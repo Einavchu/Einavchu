@@ -94,6 +94,7 @@
 
   p {
     color: var(--p-color);
+    
     font-weight: var(--font-weight-light);
     letter-spacing: 0.3px;
     line-height: 2em;
