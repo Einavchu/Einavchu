@@ -210,7 +210,6 @@ a:hover  {
 
 .rtl2 {
 direction: rtl;
-text-align: center;
 color:#010101;
 color: var(--p-color);
 font-weight: var(--font-weight-light);
