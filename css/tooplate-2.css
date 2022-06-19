@@ -196,7 +196,7 @@ a:hover  {
 .navbar-brand {
   color: var(--white-color);
   font-weight: var(--font-weight-light);
-  font-size: var(--h6-font-size);
+  font-size: var(--h5 -font-size);
   font-weight: bold;
   color:#010101;
 }
@@ -210,13 +210,13 @@ a:hover  {
 
 .rtl2 {
 direction: rtl;
+
 color:#010101;
 color: var(--p-color);
 font-weight: var(--font-weight-light);
 letter-spacing: 0.3px;
 line-height: 2em;
 text-align: right;
-
 }
 .circular_image{
 
@@ -245,11 +245,14 @@ border-radius: 50%; /* Modified*/
 .nav-item .nav-link.active, 
 .nav-item .nav-link:hover {
   color: black;
+
 }
 
 .nav-item .nav-link.active, 
 .nav-item .nav-link:hover {
   border-bottom-color: black;
+
+
 }
 
 .nav-link {
@@ -644,4 +647,4 @@ font-size: 2.2em;
     font-size: 20px;
     padding: 0.3rem 2rem 0.6rem 2rem;
   }
-} 
+}
