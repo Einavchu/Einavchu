@@ -196,7 +196,7 @@ a:hover  {
 .navbar-brand {
   color: var(--white-color);
   font-weight: var(--font-weight-light);
-  font-size: var(--h5 -font-size);
+  font-size: var(--h5-font-size);
   font-weight: bold;
   color:#010101;
 }
@@ -245,14 +245,11 @@ border-radius: 50%; /* Modified*/
 .nav-item .nav-link.active, 
 .nav-item .nav-link:hover {
   color: black;
-
 }
 
 .nav-item .nav-link.active, 
 .nav-item .nav-link:hover {
   border-bottom-color: black;
-
-
 }
 
 .nav-link {
