@@ -23,7 +23,13 @@
       font-style: normal;
   }
   @media screen and (max-width: 600px) {}
+  @import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
 
+  @media (min-width:768px) {
+    .navhome {
+      padding-right: 50px;
+    }
+  }
   :root {
     --primary-color:        #ffd500;
     --white-color:          #ffffff;
@@ -149,7 +155,10 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
-
+  @viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
   *::before,
   *::after {
     -webkit-box-sizing: border-box;
@@ -197,8 +206,8 @@
   .navbar-brand {
     color: var(--white-color);
     font-weight: var(--font-weight-light);
-    font-size: var(--h5-font-size);
-    font-weight: bold;
+/*     font-size: var(--h5-font-size);
+ */    font-weight: bold;
     color:#010101;
   }
   .rtl {
