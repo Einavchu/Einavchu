@@ -218,6 +218,16 @@ letter-spacing: 0.3px;
 line-height: 2em;
 text-align: right;
 }
+.rtl4 {
+  direction: rtl;
+  
+  color:#010101;
+  color: var(--p-color);
+  font-weight: var(--font-weight-light);
+  letter-spacing: 0.3px;
+  line-height: 2em;
+  text-align: center;
+  }
 .circular_image{
 
 
@@ -364,7 +374,7 @@ font-size: 2.2em;
 }
 
 .about-image {
-  border-radius: var(--border-radius-small);
+/*   border-radius: var(--border-radius-small); */
 }
 
 
