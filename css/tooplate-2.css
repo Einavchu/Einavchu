@@ -208,6 +208,13 @@
 
   }
 
+.logo-image img{
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+  }
   .rtl2 {
   direction: rtl;
 
@@ -218,6 +225,7 @@
   line-height: 2em;
   text-align: right;
   }
+
   .rtl4 {
     direction: rtl;
     
