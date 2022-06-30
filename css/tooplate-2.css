@@ -22,6 +22,7 @@
       font-weight: bold;
       font-style: normal;
   }
+  @media screen and (max-width: 600px) {}
 
   :root {
     --primary-color:        #ffd500;
@@ -220,10 +221,10 @@
 
   color:#010101;
   color: var(--p-color);
-  font-weight: var(--font-weight-light);
+  font-weight: var(--font-weight);
   letter-spacing: 0.3px;
   line-height: 2em;
-  text-align: right;
+  text-align: justify;
   }
 
   .rtl4 {
