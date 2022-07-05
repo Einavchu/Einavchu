@@ -114,7 +114,7 @@
     line-height: 2em;
   }
   .section-padding {
-    padding: 6rem 0;
+    padding: 2rem 0;
   }
 
   .custom-icon {
@@ -229,8 +229,8 @@
   direction: rtl;
 
   color:#010101;
-  color: var(--p-color);
-  font-weight: var(--font-weight);
+/*   color: var(--p-color);
+ */  font-weight: var(--font-weight);
   letter-spacing: 0.3px;
   line-height: 2em;
   text-align: justify;
@@ -240,8 +240,8 @@
     direction: rtl;
     
     color:#010101;
-    color: var(--p-color);
-    font-weight: var(--font-weight-light);
+/*     color: var(--p-color);
+ */    font-weight: var(--font-weight-normal);
     letter-spacing: 0.3px;
     line-height: 2em;
     text-align: center;
@@ -392,7 +392,11 @@
   }
 
   .about-image {
-  /*   border-radius: var(--border-radius-small); */
+
+    border-radius: var(--border-radius-small); 
+    float: left;
+
+    margin: 25px 50px 75px 100px;
   }
 
 
