@@ -255,6 +255,8 @@
   letter-spacing: 0.3px;
   line-height: 2em;
   text-align: justify;
+
+  flex-direction: column;
   }
   .rtl6 {
     direction: rtl;
