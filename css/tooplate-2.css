@@ -27,7 +27,8 @@
 
   @media (min-width:768px) {
     .rtl2{
-      transform: none !important
+      transform: none !important;
+      flex-flow: column;
     }
     .navhome {
       padding-right: 50px;
@@ -35,7 +36,10 @@
   }
   @media (min-width:390px) {
     .rtl2{
-      transform: none !important
+      transform: none !important;
+      flex-flow: column;
+
+
     }
     .navhome {
       padding-right: 50px;
