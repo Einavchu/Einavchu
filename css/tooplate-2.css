@@ -241,7 +241,16 @@
   line-height: 2em;
   text-align: justify;
   }
+  .rtl6 {
+    direction: rtl;
+  
+    color:#010101;
+  /*   color: var(--p-color);
+   */  font-weight: var(--font-weight);
+    letter-spacing: 0.2px;
+    line-height: 2em;
 
+    }
   .rtl4 {
     direction: rtl;
     
