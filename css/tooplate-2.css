@@ -26,6 +26,17 @@
   @import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
 
   @media (min-width:768px) {
+    .rtl2{
+      transform: none !important
+    }
+    .navhome {
+      padding-right: 50px;
+    }
+  }
+  @media (min-width:390px) {
+    .rtl2{
+      transform: none !important
+    }
     .navhome {
       padding-right: 50px;
     }
