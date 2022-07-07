@@ -28,7 +28,7 @@
   @media (min-width:768px) {
     .rtl2{
       transform: none !important;
-      flex-flow: column;
+
     }
     .navhome {
       padding-right: 50px;
@@ -36,10 +36,7 @@
   }
   @media (min-width:390px) {
     .rtl2{
-      transform: none !important;
-      flex-flow: column;
-
-
+      transform: none !important
     }
     .navhome {
       padding-right: 50px;
@@ -255,8 +252,6 @@
   letter-spacing: 0.3px;
   line-height: 2em;
   text-align: justify;
-
-  flex-direction: column;
   }
   .rtl6 {
     direction: rtl;
