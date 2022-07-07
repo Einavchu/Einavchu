@@ -185,6 +185,9 @@
   .spacer {
     padding-bottom: 2em;
   }
+  .spacer2 {
+    padding-bottom: 0.1em;
+  }
   .navbar {
     background: transparent;
     padding: 0.3rem 1rem;
