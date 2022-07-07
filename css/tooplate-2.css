@@ -27,8 +27,7 @@
 
   @media (min-width:768px) {
     .rtl2{
-      transform: none !important;
-
+      transform: none !important
     }
     .navhome {
       padding-right: 50px;
@@ -423,8 +422,8 @@
 
     border-radius: var(--border-radius-small); 
     float: left;
-    display: flex;
-    margin: 15px 15px 0px 80px;
+    display: inline-block;
+    margin: 15px 15px 0px 2px;
   }
 
 
